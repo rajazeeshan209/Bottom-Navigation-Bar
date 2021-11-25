@@ -81,7 +81,7 @@ class _BottomNavState extends State<BottomNav> {
         elevation: 4,
         child: const Icon(Icons.search),
         onPressed: () => setState((){
-          _SelectedIndex = 2;
+          onTapped(2);
         }),
       )),
     );
